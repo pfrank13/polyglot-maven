@@ -6,7 +6,7 @@ end
 
 module TeslaMaven
 
-  VERSION = '0.1.2'.freeze
+  VERSION = '0.1.1'.freeze
   
   def self.home
     File.expand_path( File.join( File.dirname( File.expand_path( __FILE__ ) ), '../ruby-maven-home' ) )
