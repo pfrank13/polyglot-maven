@@ -49,7 +49,8 @@
     <module>polyglot-yaml</module>
     <module>polyglot-clojure</module>
     <module>polyglot-xml</module>
-    <module>polyglot-maven-plugin</module>    
+    <module>polyglot-kotlin</module>
+    <module>polyglot-maven-plugin</module>
     <module>polyglot-translate-plugin</module>    
   </modules>
 
