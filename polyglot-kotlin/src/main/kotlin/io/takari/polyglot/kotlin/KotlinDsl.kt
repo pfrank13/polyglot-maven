@@ -1,10 +1,10 @@
 package io.takari.polyglot.kotlin;
 
 import org.apache.maven.model.Model
-import java.util.ArrayList
-import java.util.HashMap
 
 fun main(args: Array<String>) {
+  println("Hello World")
+  /*
   val result =
     model {
       head {
@@ -38,15 +38,16 @@ fun main(args: Array<String>) {
       }
     }
   println(result)
+  */
 }
-
+/*
 fun model(parse: MavenModel.() -> Unit): MavenModel {
   val model = MavenModel()
   model.parse()
   return model
 }
 
-trait Element {
+class Element {
   fun parse(model: Model, indent: String)
 
   override fun toString(): String {
@@ -133,6 +134,6 @@ class A() : BodyTag("a") {
       attributes["href"] = value
     }
 }
-
+*/
 
 

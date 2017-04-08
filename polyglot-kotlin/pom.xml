@@ -10,14 +10,14 @@
   <parent>
     <groupId>io.takari.polyglot</groupId>
     <artifactId>polyglot</artifactId>
-    <version>0.1.7-SNAPSHOT</version>
+    <version>0.1.20-SNAPSHOT</version>
   </parent>
 
   <artifactId>polyglot-kotlin</artifactId>
   <name>Polyglot :: Kotlin</name>
 
   <properties>
-    <kotlin.version>0.11.91</kotlin.version>
+    <kotlin.version>1.1.1</kotlin.version>
   </properties>
 
   <dependencies>
